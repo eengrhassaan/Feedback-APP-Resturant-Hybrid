@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  obj = {
+    id: "1",
+    name: "Test"
+  };
+  arr = ["abc","123","def","456"];
 }
